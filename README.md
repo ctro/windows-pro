@@ -1,5 +1,7 @@
 # Windows Provision
 
+Automate with powershell.
+
 ## Software to install
 
 - Choco
@@ -26,3 +28,6 @@
 - fl.ux
 - autohotkey
 - Fiddler
+- fresh paint
+- paint 3d
+- journalist
