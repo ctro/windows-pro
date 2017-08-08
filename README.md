@@ -32,3 +32,4 @@ Automate with powershell.
 - paint 3d
 - journalist
 - Docker
+- MightyText
