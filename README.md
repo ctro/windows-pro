@@ -33,3 +33,4 @@ Automate with powershell.
 - journalist
 - Docker
 - MightyText
+- StandardNotes
