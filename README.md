@@ -34,3 +34,4 @@ Automate with powershell.
 - Docker
 - MightyText
 - StandardNotes
+- Aqua Snap http://www.nurgo-software.com/products/aquasnap
