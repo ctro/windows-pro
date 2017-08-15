@@ -35,3 +35,4 @@ Automate with powershell.
 - MightyText
 - StandardNotes
 - Aqua Snap http://www.nurgo-software.com/products/aquasnap
+- steam
