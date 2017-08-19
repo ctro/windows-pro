@@ -1,7 +1,7 @@
 choco upgrade -y `
     handbrake vlc spotify docker-for-windows fiddler launchy `
     7zip tixati googledrive googleearth googlephotos ruby paint.net `
-    vim steam visualstudiocode caffeine
+    vim steam visualstudiocode slack
 
     # Use windows store for
     # xodo netflix paint3d journalist

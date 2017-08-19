@@ -14,9 +14,13 @@ Setting up a Surface Pro.
 ## Install a bunch of things
 ./install-things.ps1
 
-## Uncap setup
+## Swap Caps lock and Esc 
 
-Move `.exe` to `'~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup'` for auto startup
+Use [uncap](https://github.com/susam/uncap). 
+Move `.exe` to `'~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup'` for auto startup. Properties ->  Compatibility -> Run this program as Administrator
+
+## Rename computer
+`Rename-Computer -NewName Surface`
 
 ## Run Linux
 `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
@@ -25,5 +29,4 @@ For now, opt into "Windows insiders preview" and install Ubuntu, Fedora, etc. fr
 
 ## TODO
 
-1. linux subsystem
-2. less startup shit.
+3. Uncap isn't really running at startup.
