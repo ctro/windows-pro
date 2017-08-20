@@ -1,6 +1,6 @@
 choco upgrade -y `
-    handbrake vlc spotify docker-for-windows fiddler launchy `
-    7zip tixati googledrive googleearth googlephotos ruby paint.net `
+    handbrake vlc spotify docker-for-windows fiddler `
+    7zip tixati googledrive googleearth ruby paint.net `
     vim steam visualstudiocode slack
 
     # Use windows store for
