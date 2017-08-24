@@ -21,9 +21,10 @@
 -"Pipeline Parameter Binding" lets you pipe result properties of one command as parameters into the next command. Matching happens first by type, then by name. `Get-Process iexplore | Stop-Process`
 - Show all object properties `| Format-List`
 - `$_` is the current value in the pipeline. `1,2,3 | %{ write-host $_ }`
-- List variables `ls variables:`
+- List variables `ls variable:`
 - `"` strings do variable expansion like ruby. `"$Variable"`, `"$(Expression)"`
 - Create an array `$a = 1, 2, 3, 4`, `$a.GetType()`
 - `Write-Host` writes to console for human consumption. `Write-Output` writes to pipeline.
 - Variable scope looks globally if none is found locally
 - Prefer pipes over loops
+- Grep `dir variable: | Out-String -Stream | Select-String pwd`

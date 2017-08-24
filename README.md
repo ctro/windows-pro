@@ -13,6 +13,8 @@ Setting up a Surface Pro.
 ## Run scripts
 
 ```
+cp ./profile.ps1 $profile
+./ps-setup.ps1
 ./google-dns.ps1
 ./install-things.ps1
 ```
