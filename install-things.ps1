@@ -4,6 +4,7 @@ choco upgrade -y `
     vim steam visualstudiocode slack clipx `
     paint.net 
     # seer?
+    # opera? Seems better than chrome on win10
 
     # Use windows store for
     # xodo netflix paint3d journalist
