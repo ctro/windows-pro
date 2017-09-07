@@ -1,6 +1,6 @@
 choco upgrade -y `
     handbrake vlc spotify docker-for-windows fiddler `
-    7zip tixati googledrive googleearth ruby `
+    7zip tixati googleearth ruby `
     vim steam visualstudiocode slack clipx `
     paint.net 
     # seer?
