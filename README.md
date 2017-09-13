@@ -22,7 +22,6 @@ cp ./profile.ps1 $profile
 ## Swap Caps lock and Esc 
 
 Use [uncap](https://github.com/susam/uncap). 
-Move `.exe` to `'~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup'` for auto startup. Properties ->  Compatibility -> Run this program as Administrator
 
 ## Rename computer
 `Rename-Computer -NewName Surface`
