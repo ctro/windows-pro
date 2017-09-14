@@ -2,7 +2,7 @@ choco upgrade -y `
     handbrake vlc spotify docker-for-windows fiddler `
     7zip tixati googleearth ruby `
     vim steam visualstudiocode slack clipx `
-    paint.net lightshot electrum 
+    paint.net lightshot electrum malwarebytes
     # seer?
     # opera? Seems better than chrome on win10
 
