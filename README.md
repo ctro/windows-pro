@@ -5,7 +5,7 @@ Setting up a Surface Pro.
 ## Pre-reqs
 
 1. Install [Chocolatey](https://chocolatey.org)
-2. Install couple things: `choco install git googlechrome`
+2. Install git: `choco install git`
 3. Open Git Bash: `ssh-keygen`, `type ~/.ssh/id_rsa.pub` and add that to github.
 4. Clone this repo!
 5. Powershell `Set-ExecutionPolicy RemoteSigned` so we can run our own scripts.

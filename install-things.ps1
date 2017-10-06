@@ -1,10 +1,24 @@
+# 
 choco upgrade -y `
-    handbrake vlc spotify docker-for-windows fiddler `
-    7zip tixati googleearth ruby `
-    vim steam visualstudiocode slack clipx `
-    paint.net lightshot electrum malwarebytes
-    # seer?
-    # opera? Seems better than chrome on win10
+    7zip ` #archiver
+    clipx ` #clipboard manager
+    docker-for-windows `
+    electrum ` #bitcoin wallet
+    fiddler ` #web proxy
+    googleearth `
+    handbrake ` #DVD ripper
+    lightshot ` #screenshot util
+    paint.net `
+    ruby `
+    seer ` #spacebar preview
+    slack `
+    spotify `
+    steam ` #games
+    tixati ` #bittorrent
+    vim `
+    visualstudiocode 
+
+    # The best browser right now feels like the new Firefox dev edition
 
     # Use windows store for
     # xodo netflix paint3d journalist
@@ -15,3 +29,5 @@ choco upgrade -y `
     # NOTE: choco cache is in `ls $env:temp/chocolatey/`
     
     # Upgrade all: `choco upgrade all --noop`
+
+    # TODO: explain what these actually are :)
