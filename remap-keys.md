@@ -1,5 +1,7 @@
 # Remap keys in Windows 10
 
+In Windows I like to remap Caps -> Esc, and Right-Alt -> Ctrl.
+
 Lots of things don't work. I tried them all.
 Here's what does work:
 

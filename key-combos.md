@@ -2,3 +2,4 @@
 
 `Win-x-a` : launch powershell admin
 `Win-x-t` : launch task manager
+`Win-semicolon` : emoji picker
