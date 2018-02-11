@@ -16,8 +16,7 @@ choco upgrade -y `
     steam ` #games
     tixati ` #bittorrent
     vim `
-    visualstudiocode `
-    formatfactory  #dvd ripper
+    visualstudiocode
 
     # The best browser right now feels like the new Firefox dev edition
 
