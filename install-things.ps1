@@ -16,7 +16,8 @@ choco upgrade -y `
     steam ` #games
     tixati ` #bittorrent
     vim `
-    visualstudiocode
+    visualstudiocode `
+    poshgit # Powershell Git helpers
 
     # The best browser right now feels like the new Firefox dev edition
 
