@@ -1,34 +1,13 @@
-# 
-choco upgrade -y `
-    7zip ` #archiver
-    clipx ` #clipboard manager
-    docker-for-windows `
-    electrum ` #bitcoin wallet
-    fiddler ` #web proxy
-    googleearth `
-    handbrake ` #DVD ripper
-    lightshot ` #screenshot util
-    paint.net `
-    ruby `
-    seer ` #spacebar preview
-    slack `
-    spotify `
-    steam ` #games
-    tixati ` #bittorrent
-    vim `
-    visualstudiocode `
-    poshgit # Powershell Git helpers
 
-    # The best browser right now feels like the new Firefox dev edition
+$toInstall = "7zip", "clipx", "docker-for-windows", "electrum", "fiddler", `
+    "googleearth", "handbrake", "lightshot", "paint.net", "ruby", "seer", `
+    "slack", "spotify", "steam", "tixati", "vim", "visualstudiocode", `
+    "poshgit"
 
-    # Use windows store for
-    # xodo netflix paint3d journalist
+choco upgrade -y ($toInstall -join ";")
 
-    # Download regular installers for
-    # fiddler pia standard-notes mighty-text caffeinated uncap
+# Download regular installers for
+# fiddler pia standard-notes mighty-text caffeinated
 
-    # NOTE: choco cache is in `ls $env:temp/chocolatey/`
-    
-    # Upgrade all: `choco upgrade all --noop`
-
-    # TODO: explain what these actually are :)
+# NOTE: choco cache is in `ls $env:temp/chocolatey/`
+# Upgrade all: `choco upgrade all --noop`
