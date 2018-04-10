@@ -2,7 +2,7 @@
 $toInstall = "7zip", "clipx", "docker-for-windows", "electrum", "fiddler", `
     "googleearth", "handbrake", "lightshot", "paint.net", "ruby", "seer", `
     "slack", "spotify", "steam", "tixati", "vim", "visualstudiocode", `
-    "poshgit"
+    "poshgit", "windirstat"
 
 choco upgrade -y ($toInstall -join ";")
 
