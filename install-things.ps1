@@ -1,8 +1,8 @@
 
 $toInstall = "7zip", "docker-for-windows", "fiddler", `
-    "googleearth", "handbrake", "paint.net", "ruby", "seer", `
+    "googleearth", "handbrake", "paint.net", "ruby", "quicklook", `
     "slack", "spotify", "tixati", "vim", "visualstudiocode", `
-    "poshgit", "windirstat", "wordweb-free"
+    "poshgit", "windirstat", "wordweb-free", "winscp"
 
 choco upgrade -y ($toInstall -join ";")
 
